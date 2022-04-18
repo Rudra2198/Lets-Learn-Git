@@ -16,6 +16,8 @@ public class diff {
         System.out.println(" Difference of two numbers is " + c);
 
         sc.close();
+
+        System.out.println("bye");
     }
 
 }
