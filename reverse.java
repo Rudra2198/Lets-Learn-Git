@@ -19,5 +19,7 @@ public class reverse {
 
         System.out.println("Reversed text: " + rev);
 
+        sc.close();
+
     }
 }
