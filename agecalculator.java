@@ -24,6 +24,9 @@ public class agecalculator {
         int currentDay = sc.nextInt();
 
         int age = currentYear - birthYear;
+        int ageInMiniute = (age * 365 * 24 * 60);
+        int ageInHour = (age * 365 * 24);
+        int ageInDay = (age * 365);
 
         if (currentMonth < birthMonth) {
             age--;
@@ -34,6 +37,9 @@ public class agecalculator {
         }
 
         System.out.println("Your age is: " + age);
+        System.out.println("Your age in minute is: " + ageInMiniute);
+        System.out.println("Your age in hour is: " + ageInHour);
+        System.out.println("Your age in day is: " + ageInDay);
 
     }
 }
