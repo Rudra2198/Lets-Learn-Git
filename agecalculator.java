@@ -34,6 +34,6 @@ public class agecalculator {
         }
 
         System.out.println("Your age is: " + age);
-
+        sc.close();
     }
 }
