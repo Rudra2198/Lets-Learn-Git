@@ -1,3 +1,5 @@
+/* Take 10 numbers from user and delete the dublicate number */
+
 import java.util.*;
 
 public class duplicateremover {
