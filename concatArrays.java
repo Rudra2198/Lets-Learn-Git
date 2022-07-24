@@ -16,3 +16,4 @@ public class concatArrays {
         System.out.println(Arrays.toString(result));
     }
 }
+
